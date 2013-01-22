@@ -3,7 +3,7 @@
 hunspell
 myspell-ru
 
-2. Using example:
+2. Usage example:
 
 $Hunspell = new Hunspell();
 $Hunspell->spellCheckString('en', 'abracadabra valid iinnnvalid');
