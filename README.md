@@ -1,9 +1,12 @@
-1. For Ubuntu install packages:
+Spell checker
+=====================
 
-hunspell
-myspell-ru
+* For Ubuntu install packages:
 
-2. Usage example:
+`hunspell`
+`myspell-ru`
 
-$Hunspell = new Hunspell();
-$Hunspell->spellCheckString('en', 'abracadabra valid iinnnvalid');
+* Usage example:
+
+`$Hunspell = new Hunspell();`
+`$Hunspell->spellCheckString('en', 'abracadabra valid iinnnvalid');`
