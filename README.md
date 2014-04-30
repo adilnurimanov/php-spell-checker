@@ -3,10 +3,14 @@ Spell checker
 
 * For Ubuntu install packages:
 
-`hunspell`
-`myspell-ru`
+```
+hunspell
+myspell-ru
+```
 
 * Usage example:
 
-`$Hunspell = new Hunspell();`
-`$Hunspell->spellCheckString('en', 'abracadabra valid iinnnvalid');`
+```php
+$Hunspell = new Hunspell();
+$Hunspell->spellCheckString('en', 'abracadabra valid iinnnvalid');
+```
