@@ -1,6 +1,8 @@
 Spell checker
 =====================
 
+Wrapper class for hunspell command line utility.
+
 * For Ubuntu install packages:
 
 ```
