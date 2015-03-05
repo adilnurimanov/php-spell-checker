@@ -28,7 +28,7 @@ class SpellChecker
      *
      * @return void
      */
-    public function __construct($options = [])
+    public function __construct(array $options = [])
     {
         $this->config($options);
     }
@@ -40,7 +40,7 @@ class SpellChecker
      *
      * @return array
      */
-    protected function config($options = [])
+    protected function config(array $options = [])
     {
         $this->options = array_merge($this->options, $options);
         if (!isset($this->options['tmpPath'])) {
@@ -57,7 +57,7 @@ class SpellChecker
      *
      * @return array
      */
-    public function spellCheckString($language = 'ru', $content = '')
+    public function spellCheckString($language, $content)
     {
         if (!is_string($content)) {
             throw new SpellCheckerException('Content must be string');
