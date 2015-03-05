@@ -72,7 +72,7 @@ class SpellChecker
         $languageOptions = $this->options['allowedLanguages'][$language];
 
         if (!isset($languageOptions['dictionary'])) {
-            throw new SpellCheckerException('Option "ditionary" for language: '.$language.' not specified');
+            throw new SpellCheckerException('Option "dictionary" for language: '.$language.' not specified');
         }
 
         if (isset($languageOptions['locale'])) {
