@@ -62,7 +62,7 @@ class SpellChecker
         if (!is_string($content)) {
             throw new SpellCheckerException('Content must be string');
         }
-		if (!is_string($language)) {
+        if (!is_string($language)) {
             throw new SpellCheckerException('Language must be string');
         }
         if (!isset($this->options['allowedLanguages'][$language])) {
