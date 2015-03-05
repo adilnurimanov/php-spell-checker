@@ -13,5 +13,5 @@ sudo apt-get install myspell-ru
 ```php
 require 'SpellChecker.php'
 $checker = new SpellChecker();
-$checker->spellCheckString('en', 'abracadabra valid iinnnvalid');
+$checker->spellCheckString(SpellChecker::LANG_EN, 'abracadabra valid iinnnvalid');
 ```
