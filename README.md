@@ -4,13 +4,14 @@ Spell checker
 * For Ubuntu install packages:
 
 ```
-hunspell
-myspell-ru
+sudo apt-get install hunspell
+sudo apt-get install myspell-ru
 ```
 
 * Usage example:
 
 ```php
-$Hunspell = new Hunspell();
-$Hunspell->spellCheckString('en', 'abracadabra valid iinnnvalid');
+require 'SpellChecker.php'
+$checker = new SpellChecker();
+$checker->spellCheckString('en', 'abracadabra valid iinnnvalid');
 ```
